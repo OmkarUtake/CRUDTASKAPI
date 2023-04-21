@@ -1,0 +1,413 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Task CRUD\\Crud.API\\Crud.API\\Crud.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Task CRUD\\Crud.API\\Crud.API\\Crud.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Task CRUD\\Crud.API\\Crud.API\\Crud.API.csproj",
+        "projectName": "Crud.API",
+        "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.API\\Crud.API.csproj",
+        "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+        "outputPath": "D:\\Task CRUD\\Crud.API\\Crud.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Task CRUD\\Crud.API\\Crud.Database\\Crud.Database.csproj": {
+                "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.Database\\Crud.Database.csproj"
+              },
+              "D:\\Task CRUD\\Crud.API\\Crud.ModelDTO\\Crud.ModelDTO.csproj": {
+                "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.ModelDTO\\Crud.ModelDTO.csproj"
+              },
+              "D:\\Task CRUD\\Crud.API\\Crud.Model\\Crud.Model.csproj": {
+                "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.Model\\Crud.Model.csproj"
+              },
+              "D:\\Task CRUD\\Crud.API\\Crud.Services\\Crud.Services.csproj": {
+                "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.Services\\Crud.Services.csproj"
+              },
+              "D:\\Task CRUD\\Crud.API\\Crud.UtilityHelper\\Crud.UtilityHelper.csproj": {
+                "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.UtilityHelper\\Crud.UtilityHelper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Task CRUD\\Crud.API\\Crud.Database\\Crud.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Task CRUD\\Crud.API\\Crud.Database\\Crud.Database.csproj",
+        "projectName": "Crud.Database",
+        "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.Database\\Crud.Database.csproj",
+        "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+        "outputPath": "D:\\Task CRUD\\Crud.API\\Crud.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Task CRUD\\Crud.API\\Crud.ModelDTO\\Crud.ModelDTO.csproj": {
+                "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.ModelDTO\\Crud.ModelDTO.csproj"
+              },
+              "D:\\Task CRUD\\Crud.API\\Crud.Model\\Crud.Model.csproj": {
+                "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.Model\\Crud.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Task CRUD\\Crud.API\\Crud.ModelDTO\\Crud.ModelDTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Task CRUD\\Crud.API\\Crud.ModelDTO\\Crud.ModelDTO.csproj",
+        "projectName": "Crud.ModelDTO",
+        "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.ModelDTO\\Crud.ModelDTO.csproj",
+        "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+        "outputPath": "D:\\Task CRUD\\Crud.API\\Crud.ModelDTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Task CRUD\\Crud.API\\Crud.Model\\Crud.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Task CRUD\\Crud.API\\Crud.Model\\Crud.Model.csproj",
+        "projectName": "Crud.Model",
+        "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.Model\\Crud.Model.csproj",
+        "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+        "outputPath": "D:\\Task CRUD\\Crud.API\\Crud.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Task CRUD\\Crud.API\\Crud.Services\\Crud.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Task CRUD\\Crud.API\\Crud.Services\\Crud.Services.csproj",
+        "projectName": "Crud.Services",
+        "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.Services\\Crud.Services.csproj",
+        "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+        "outputPath": "D:\\Task CRUD\\Crud.API\\Crud.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Task CRUD\\Crud.API\\Crud.Database\\Crud.Database.csproj": {
+                "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.Database\\Crud.Database.csproj"
+              },
+              "D:\\Task CRUD\\Crud.API\\Crud.ModelDTO\\Crud.ModelDTO.csproj": {
+                "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.ModelDTO\\Crud.ModelDTO.csproj"
+              },
+              "D:\\Task CRUD\\Crud.API\\Crud.Model\\Crud.Model.csproj": {
+                "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.Model\\Crud.Model.csproj"
+              },
+              "D:\\Task CRUD\\Crud.API\\Crud.UtilityHelper\\Crud.UtilityHelper.csproj": {
+                "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.UtilityHelper\\Crud.UtilityHelper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Task CRUD\\Crud.API\\Crud.UtilityHelper\\Crud.UtilityHelper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Task CRUD\\Crud.API\\Crud.UtilityHelper\\Crud.UtilityHelper.csproj",
+        "projectName": "Crud.UtilityHelper",
+        "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.UtilityHelper\\Crud.UtilityHelper.csproj",
+        "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+        "outputPath": "D:\\Task CRUD\\Crud.API\\Crud.UtilityHelper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Task CRUD\\Crud.API\\Crud.ModelDTO\\Crud.ModelDTO.csproj": {
+                "projectPath": "D:\\Task CRUD\\Crud.API\\Crud.ModelDTO\\Crud.ModelDTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.29.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

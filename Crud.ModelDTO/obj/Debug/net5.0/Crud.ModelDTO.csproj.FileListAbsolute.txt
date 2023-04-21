@@ -1,0 +1,12 @@
+D:\Task CRUD\Crud.API\Crud.ModelDTO\bin\Debug\net5.0\Crud.ModelDTO.deps.json
+D:\Task CRUD\Crud.API\Crud.ModelDTO\bin\Debug\net5.0\Crud.ModelDTO.dll
+D:\Task CRUD\Crud.API\Crud.ModelDTO\bin\Debug\net5.0\ref\Crud.ModelDTO.dll
+D:\Task CRUD\Crud.API\Crud.ModelDTO\bin\Debug\net5.0\Crud.ModelDTO.pdb
+D:\Task CRUD\Crud.API\Crud.ModelDTO\obj\Debug\net5.0\Crud.ModelDTO.csproj.AssemblyReference.cache
+D:\Task CRUD\Crud.API\Crud.ModelDTO\obj\Debug\net5.0\Crud.ModelDTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Task CRUD\Crud.API\Crud.ModelDTO\obj\Debug\net5.0\Crud.ModelDTO.AssemblyInfoInputs.cache
+D:\Task CRUD\Crud.API\Crud.ModelDTO\obj\Debug\net5.0\Crud.ModelDTO.AssemblyInfo.cs
+D:\Task CRUD\Crud.API\Crud.ModelDTO\obj\Debug\net5.0\Crud.ModelDTO.csproj.CoreCompileInputs.cache
+D:\Task CRUD\Crud.API\Crud.ModelDTO\obj\Debug\net5.0\Crud.ModelDTO.dll
+D:\Task CRUD\Crud.API\Crud.ModelDTO\obj\Debug\net5.0\ref\Crud.ModelDTO.dll
+D:\Task CRUD\Crud.API\Crud.ModelDTO\obj\Debug\net5.0\Crud.ModelDTO.pdb

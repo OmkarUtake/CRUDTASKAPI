@@ -1,0 +1,12 @@
+D:\Task CRUD\Crud.API\Crud.Model\bin\Debug\net5.0\Crud.Model.deps.json
+D:\Task CRUD\Crud.API\Crud.Model\bin\Debug\net5.0\Crud.Model.dll
+D:\Task CRUD\Crud.API\Crud.Model\bin\Debug\net5.0\ref\Crud.Model.dll
+D:\Task CRUD\Crud.API\Crud.Model\bin\Debug\net5.0\Crud.Model.pdb
+D:\Task CRUD\Crud.API\Crud.Model\obj\Debug\net5.0\Crud.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Task CRUD\Crud.API\Crud.Model\obj\Debug\net5.0\Crud.Model.AssemblyInfoInputs.cache
+D:\Task CRUD\Crud.API\Crud.Model\obj\Debug\net5.0\Crud.Model.AssemblyInfo.cs
+D:\Task CRUD\Crud.API\Crud.Model\obj\Debug\net5.0\Crud.Model.csproj.CoreCompileInputs.cache
+D:\Task CRUD\Crud.API\Crud.Model\obj\Debug\net5.0\Crud.Model.dll
+D:\Task CRUD\Crud.API\Crud.Model\obj\Debug\net5.0\ref\Crud.Model.dll
+D:\Task CRUD\Crud.API\Crud.Model\obj\Debug\net5.0\Crud.Model.pdb
+D:\Task CRUD\Crud.API\Crud.Model\obj\Debug\net5.0\Crud.Model.csproj.AssemblyReference.cache

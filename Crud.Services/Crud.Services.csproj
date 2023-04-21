@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Crud.Database\Crud.Database.csproj" />
+    <ProjectReference Include="..\Crud.ModelDTO\Crud.ModelDTO.csproj" />
+    <ProjectReference Include="..\Crud.Model\Crud.Model.csproj" />
+    <ProjectReference Include="..\Crud.UtilityHelper\Crud.UtilityHelper.csproj" />
+  </ItemGroup>
+
+</Project>

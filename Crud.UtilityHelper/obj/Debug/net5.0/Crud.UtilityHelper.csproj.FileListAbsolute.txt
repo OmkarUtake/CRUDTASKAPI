@@ -1,0 +1,15 @@
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\bin\Debug\net5.0\Crud.UtilityHelper.deps.json
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\bin\Debug\net5.0\Crud.UtilityHelper.dll
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\bin\Debug\net5.0\ref\Crud.UtilityHelper.dll
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\bin\Debug\net5.0\Crud.UtilityHelper.pdb
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\obj\Debug\net5.0\Crud.UtilityHelper.csproj.AssemblyReference.cache
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\obj\Debug\net5.0\Crud.UtilityHelper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\obj\Debug\net5.0\Crud.UtilityHelper.AssemblyInfoInputs.cache
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\obj\Debug\net5.0\Crud.UtilityHelper.AssemblyInfo.cs
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\obj\Debug\net5.0\Crud.UtilityHelper.csproj.CoreCompileInputs.cache
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\obj\Debug\net5.0\Crud.UtilityHelper.dll
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\obj\Debug\net5.0\ref\Crud.UtilityHelper.dll
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\obj\Debug\net5.0\Crud.UtilityHelper.pdb
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\bin\Debug\net5.0\Crud.ModelDTO.dll
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\bin\Debug\net5.0\Crud.ModelDTO.pdb
+D:\Task CRUD\Crud.API\Crud.UtilityHelper\obj\Debug\net5.0\Crud.UtilityHelper.csproj.CopyComplete
