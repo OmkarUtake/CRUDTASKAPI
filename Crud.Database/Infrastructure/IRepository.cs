@@ -10,10 +10,10 @@ namespace Crud.Database.Infrastructure
     public interface IRepository<T> where T : class
     {
         Task<T> GetById(int id);
-        Task Add(T model);
-        Task Delete(T model);
-        Task Update(T model);
-        Task<IEnumerable<T>> GetProducts();
-        Task<IEnumerable<T>> Get(Expression<Func<T, bool>> expression);
+        void Add(T model);
+        void Delete(T model);
+        Task Update(int id, T model);
+        Task<IEnumerable<T>> GetAll();
+
     }
 }

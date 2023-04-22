@@ -22,39 +22,44 @@ namespace Crud.Database.Repository.UserRepository
         {
             _db = db;
         }
-        public async Task Add(Category model)
+
+        public void Add(Category model)
         {
             _db.Categories.Add(model);
-            await _db.SaveChangesAsync();
-
+            _db.SaveChanges();
         }
 
-        public async Task Delete(Category model)
+        public void Delete(Category model)
         {
             _db.Categories.Remove(model);
-            await _db.SaveChangesAsync();
+            _db.SaveChanges();
         }
 
-        public async Task<IEnumerable<Category>> Get(Expression<Func<Category, bool>> expression)
+        public async Task<IEnumerable<Category>> GetAll()
         {
-            var categories = _db.Categories;
-            return categories;
+            var allCategories = _db.Categories.ToList();
+            return allCategories;
         }
 
         public async Task<Category> GetById(int id)
         {
-            var data =await _db.Categories.Where(x => x.Id == id).FirstOrDefaultAsync();
-            return data;
+            var category = _db.Categories.Where(x => x.Id == id).FirstOrDefault();
+            return category;
         }
 
-        public Task<IEnumerable<Category>> GetProducts()
+        public async Task<IEnumerable<Category>> GetProducts()
         {
-            throw new NotImplementedException();
+            var category = await _db.Categories.ToListAsync();
+            return category;
         }
 
-        public Task Update(Category model)
+        public async Task Update(int id, Category model)
         {
-            throw new NotImplementedException();
+            var category = await GetById(id);
+            category.Name = model.Name;
+            category.Description = model.Description;
+            _db.Categories.Update(category);
+            _db.SaveChanges();
         }
     }
 }

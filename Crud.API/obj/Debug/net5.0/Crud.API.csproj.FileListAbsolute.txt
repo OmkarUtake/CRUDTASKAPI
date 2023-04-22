@@ -22,7 +22,6 @@ D:\Task CRUD\Crud.API\Crud.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocol
 D:\Task CRUD\Crud.API\Crud.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Task CRUD\Crud.API\Crud.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\Task CRUD\Crud.API\Crud.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
-D:\Task CRUD\Crud.API\Crud.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\Task CRUD\Crud.API\Crud.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Task CRUD\Crud.API\Crud.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Task CRUD\Crud.API\Crud.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -77,3 +76,4 @@ D:\Task CRUD\Crud.API\Crud.API\obj\Debug\net5.0\Crud.API.genruntimeconfig.cache
 D:\Task CRUD\Crud.API\Crud.API\bin\Debug\net5.0\Crud.UtilityHelper.dll
 D:\Task CRUD\Crud.API\Crud.API\bin\Debug\net5.0\Crud.UtilityHelper.pdb
 D:\Task CRUD\Crud.API\Crud.API\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Task CRUD\Crud.API\Crud.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
